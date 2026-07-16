@@ -155,3 +155,35 @@
     grid-template-columns: 1fr;
   }
 }
+
+.product-grid.btn{
+  display: center-align;
+  color: #f97316;
+}
+
+.more-btn-container {
+  display: flex;
+  justify-content: center;
+  margin: 40px 0;
+}
+
+.more-btn {
+  background: linear-gradient(135deg, #f97316, #ea580c);
+  color: white;
+  border: none;
+  border-radius: 8px;
+  padding: 14px 32px;
+  font-size: 16px;
+  font-weight: 600;
+  cursor: pointer;
+  transition: all 0.3s ease;
+}
+
+.more-btn:hover {
+  background: linear-gradient(135deg, #fb923c, #f97316);
+  transform: translateY(-2px);
+}
+
+.more-btn:active {
+  transform: scale(0.98);
+}
